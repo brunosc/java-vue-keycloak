@@ -1,0 +1,8 @@
+server:
+  port: 8001
+
+keycloak:
+  bearer-only: true
+  auth-server-url: http://localhost:8888/auth
+  resource: backend # client_id
+  realm: java-vue-keycloak
